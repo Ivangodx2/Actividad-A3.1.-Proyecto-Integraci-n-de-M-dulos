@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'search',
-    'django_project'
+    'django_project',
+    'django.middleware.csrf.CsrfViewMiddleware'
 ]
 
 MIDDLEWARE = [

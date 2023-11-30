@@ -6,8 +6,8 @@ def index(request):
     return render(request, 'index.html')
 
 def search(request):
-    if request.method == 'POST':
-        search = request.POST['search']
+    if request.method == 'GET':
+        search = request.GET['search']
         
         # Obtén la ruta completa al archivo raiz_ind_inv.txt
         file_path = os.path.join(os.path.dirname(__file__), 'raiz_ind_inv.txt')

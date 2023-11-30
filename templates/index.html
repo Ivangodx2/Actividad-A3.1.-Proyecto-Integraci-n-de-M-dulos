@@ -184,7 +184,7 @@
 </div>
 
 
-<form method="POST" action="{% url 'search' %}">
+<form method="GET" action="{% url 'search' %}">
         {% csrf_token %}
         <input class="search-bar" type="text" name="search" autofocus x-webkit-speech/>
         <div class="search-nav">

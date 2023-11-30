@@ -1,0 +1,11 @@
+//Descripción de los archivos//
+Nuestro programa se tienen una carpeta llamada search donde se encuentran los archivos más importantes, en el que principalmente se ejecuta para realizar la búsqueda es views.py. De igual manera, en la carpeta search se tiene el archivo raiz_ind_inv.txt donde contiene  las raíces de las palabras como índice invertido.
+Por otro lado, tenemos el archivo llamado urls.py donde se hace la conexión.
+Por último, el proyecto tiene una capeta llamada templates en la cual se tienen las interfaces que maneja el buscador, tanto el de inicio como cuando se realiza la búsqueda.
+
+
+//Ejecutar el programa//
+Lo principal es tener la url del repositorio
+Clonar el repositorio con 'git clone url'
+Descargar caambios con 'git pul' para estar seguros 
+Ejecutar el comando 'python manage.py runserver' para ejecutar el programa de manera local

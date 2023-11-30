@@ -9,5 +9,8 @@ Por último, el proyecto tiene una capeta llamada templates en la cual se tienen
 //Ejecutar el programa//
 Lo principal es tener la url del repositorio
 Clonar el repositorio con 'git clone url'
-Descargar caambios con 'git pul' para estar seguros 
+Descargar caambios con 'git pull' para estar seguros 
+Asi como también crear un entorno virtual 'python -m venv venv'
+Y activarlo con 'venv\Scripts\activate'
+Despues instalar los requerimientos con 'pip install -r requirements.txt'
 Ejecutar el comando 'python manage.py runserver' para ejecutar el programa de manera local
